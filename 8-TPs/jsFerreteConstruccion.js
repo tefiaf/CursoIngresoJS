@@ -16,14 +16,29 @@ function Rectangulo ()
     ancho=parseInt(ancho);
     perimetro=(largo+ancho)*2;
     alambre=perimetro/3;
-    alert("cada alambre debe medir "+alambre+" cm.")
+    alert("se debe alambra con tres hilos de alambre de "+alambre+" cm.")
 
 }
 function Circulo () 
 {
-	
+    var radio;
+    var tamaño;
+    var alambre;
+    radio=document.getElementById('Radio').value;
+    tamaño=radio*2*3,14;
+    alambre=tamaño/3;
+    alert("se debe alambra con tres hilos de alambre de "+alambre+ "cm.");
+
 }
 function Materiales () 
 {
-	
+    var largo;
+    var ancho;
+    var perimetro;
+    largo=document.getElementById('Largo').value;
+    ancho=document.getElementById('Ancho').value;
+    largo=parseInt(largo);
+    ancho=parseInt(ancho);
+    perimetro=(largo+ancho)*2;
+    
 }
