@@ -3,7 +3,7 @@
 
 
 git clone //una sola vez y se escribe la direccion del repositorio
-git status // las que necesite
+git status // las que necesite,(sino me deja hacer git status debo escribir cd y el nombre de la carpeta )
 git add . //cada vez que modifico
 git commit -m // y entre comillas el comentario; cada vez que modifico
 git push //cada vez que modifico; es para subir
