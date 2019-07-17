@@ -10,4 +10,3 @@ function mostrar()
 
 }//FIN DE LA FUNCIÓN
 
-//sino me deja hacer git status debo escribir cd y el nombre de la carpeta 
