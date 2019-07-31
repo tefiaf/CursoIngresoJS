@@ -8,17 +8,23 @@ function mostrar()
 	var promedio;
 	var suma;
 	
-	while(respuesta!="si"){
+	
 		contador++;
 		numero=parseInt(numero);
 		numero=prompt("ingrese un numero por favor");
 		while(isNaN(numero)){
 			numero=parseInt(numero);
 			numero=prompt("dato incorrecto");
+			
 		}
 		acumulador+=numero;
-	
-	}	numero=prompt("desea seguir ingresando numeros?")
+		
+		
+		while(respuesta!="si"){
+		numero=prompt("desea seguir ingresando numeros?")
+		}
+		
+
 	promedio=acumulador/contador;
 
 document.getElementById('suma').value=acumulador;
